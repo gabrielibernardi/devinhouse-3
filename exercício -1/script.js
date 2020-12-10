@@ -27,6 +27,7 @@ function calcularMedia(...numeros) {
 }
 
 calcularMedia(5,8,5,10)
+calcularMedia(5,3,5,100)
 
 
 
