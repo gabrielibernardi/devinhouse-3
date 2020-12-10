@@ -1,13 +1,5 @@
 
-
-
-
-/*média utilizando o reduce()
- const average = notas => notas.reduce((a, b) => a + b, 0) / notas.length
-const result = average(notas)
-
-console.log(`A media dos valores é: ${result}`) */
-
+//exercicios resolvido durante a aula
 
  const Funcionario = {
     nome: "Gabrieli",
@@ -33,3 +25,9 @@ const valoresGastos = Despesas => {
 }
 
 valoresGastos(Despesas)
+
+/*média utilizando o reduce()
+ const average = notas => notas.reduce((a, b) => a + b, 0) / notas.length
+const result = average(notas)
+
+console.log(`A media dos valores é: ${result}`) */
