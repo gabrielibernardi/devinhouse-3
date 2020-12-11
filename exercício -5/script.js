@@ -19,7 +19,6 @@ const Pessoas = [{
     },
   ]
 
-// alguma pessoa da lista não é programador?
 
 const encontrarNomeDasPessoas = Pessoas.map(pessoa => {
     return pessoa.nome
