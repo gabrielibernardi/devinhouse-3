@@ -2,7 +2,7 @@
 //resultando num único valor de retorno.
 
 function multiplicar(...valores) {
-  const resultado = valores.reduce((valor1, valor2) => valor1 * valor2)
+  const resultado = valores.reduce((acumulador, corrente) => acumulador * corrente)
   console.log(`O resultado é ${resultado}`)
 }
 

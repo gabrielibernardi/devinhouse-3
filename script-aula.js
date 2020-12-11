@@ -15,16 +15,25 @@ console.log(`Nome: ${nome}, Cargo: ${cargo}, Salário: ${salario}`)
 imprimirFuncionario(Funcionario) 
 
 const Despesas = {
-    descrição: "Aluguel",
-    valor: "1300",
+    descrição: ["Aluguel", "luz", "água"],
+    valor: ["1300", "150", "80"]
+ 
 }
 
 const valoresGastos = Despesas => {
     const {valor} = Despesas
     console.log(`O valor gasto com o aluguel é de ${valor}`)
 }
-
 valoresGastos(Despesas)
+
+
+
+function valorTotal(valor) {
+    const resultado =valor.reduce((valor1, valor2) => valor1 * valor2)
+  console.log(`O resultado é ${resultado}`)
+}
+
+
 
 /*média utilizando o reduce()
  const average = notas => notas.reduce((a, b) => a + b, 0) / notas.length
