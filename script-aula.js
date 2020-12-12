@@ -33,10 +33,3 @@ function valorTotal(valor) {
   console.log(`O resultado é ${resultado}`)
 }
 
-
-
-/*média utilizando o reduce()
- const average = notas => notas.reduce((a, b) => a + b, 0) / notas.length
-const result = average(notas)
-
-console.log(`A media dos valores é: ${result}`) */
